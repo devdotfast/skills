@@ -1,6 +1,6 @@
-# /dev/fast skills
+# /dev/fast skills (WIP)
 
-Agent skills from /dev/fast.
+Agent skills from /dev/fast. WIP / in alpha - not for external use yet.
 
 ## deslop
 
