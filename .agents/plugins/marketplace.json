@@ -1,0 +1,20 @@
+{
+  "name": "devdotfast",
+  "interface": {
+    "displayName": "dev.fast"
+  },
+  "plugins": [
+    {
+      "name": "deslop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deslop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

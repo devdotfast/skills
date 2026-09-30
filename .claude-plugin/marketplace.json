@@ -1,0 +1,14 @@
+{
+  "name": "devdotfast",
+  "owner": {
+    "name": "dev.fast"
+  },
+  "plugins": [
+    {
+      "name": "deslop",
+      "source": "./plugins/deslop",
+      "description": "Run upon completion of a coding task, pre-review."
+    }
+  ],
+  "description": "Deslop agent skill for reviewable Git history and tests."
+}
