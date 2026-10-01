@@ -1,6 +1,6 @@
 ---
 name: deslop-commits
-description: Run upon completion of a coding task, pre-review.
+description: Clean up commit history of an AI-generated change.
 ---
 
 First step is to clean up git history (e.g. via rebase) to make the change read more clean. You have two levers available to you:
