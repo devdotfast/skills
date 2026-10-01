@@ -8,9 +8,9 @@ Deslop your coding agent's work.
 
 Invoke the installed skill as `/deslop`. The skill is composed of 3 sub-skills which are independently useful:
 
-1. `deslop-commits`: clean up commit history autonomously to make it easier to review.
-2. `deslop-tests`: clean up spurious unit tests.
-3. `deslop-comments`: clean up agent-written prose, comments, docs, etc.
+1. `/deslop-commits`: clean up commit history autonomously to make it easier to review.
+2. `/deslop-tests`: clean up spurious unit tests.
+3. `/deslop-comments`: clean up agent-written prose, comments, docs, etc.
 
 ### Install
 
