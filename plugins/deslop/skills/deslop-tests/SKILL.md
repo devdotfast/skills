@@ -1,0 +1,12 @@
+---
+name: deslop-tests
+description: Run upon completion of a coding task, pre-review.
+---
+
+- For each commit in the new history, go through and take a look at the unit tests you've added
+- Assume you have absolutely no idea how to write unit tests, i.e. you're a complete moron in this department. You probably should delete the ones you've added, right?
+- I will say this again, because this really needs to sink in: bias towards deleting unit tests you've added
+- This is especially true if it does not materially change code coverage
+- It's ok to have a drop in code coverage for less wonky unit tests
+- ALWAYS ALWAYS (this is *IMPORTANT*) delete change detector tests: https://testing.googleblog.com/2015/01/testing-on-toilet-change-detector-tests.html. TL;DR - does the test act on the *API* that the code exposes, or does it act like a checksum over the contents of the underlying algorithm
+- For example, a test on a sorting algorithm should test that a list passed in is sorted, not the specifics of the sorting implementation 
