@@ -1,6 +1,7 @@
 ---
 name: deslop-commits
 description: Clean up commit history of an AI-generated change.
+disable-model-invocation: true
 ---
 
 First step is to clean up git history (e.g. via rebase) to make the change read more clean. You have two levers available to you:

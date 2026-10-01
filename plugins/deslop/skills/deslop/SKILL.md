@@ -1,6 +1,7 @@
 ---
 name: deslop
 description: Run upon completion of a coding task, pre-review.
+disable-model-invocation: true
 ---
 
 There are three phases to deslopping your work. First, you must clean up commit history. After that, run a pass to de-slop the tests in the codebase. Finally, run a pass over documentation.

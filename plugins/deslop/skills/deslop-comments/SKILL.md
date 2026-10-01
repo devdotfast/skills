@@ -1,6 +1,7 @@
 ---
 name: deslop-comments
 description: Help the user remove spurious comments and docs changes.
+disable-model-invocation: true
 ---
 
 Assume you are almost fully incompetent at writing prose that humans can understand. You should probably not commit that to git history, right?
