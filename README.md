@@ -6,11 +6,12 @@ Agent skills from /dev/fast. WIP / in alpha - not for external use yet.
 
 Deslop your coding agent's work.
 
-Invoke the installed skill as `/deslop`. The skill is composed of 3 sub-skills which are independently useful:
+Invoke the installed skill as `/deslop`. The skill is composed of 4 sub-skills which are independently useful:
 
 1. `/deslop-commits`: clean up commit history autonomously to make it easier to review.
 2. `/deslop-tests`: clean up spurious unit tests.
 3. `/deslop-comments`: clean up agent-written prose, comments, docs, etc.
+4. `/deslop-code`: clean up unnecessary layering + abstractions in the codebase ("drive-by fixes")
 
 ### Install
 

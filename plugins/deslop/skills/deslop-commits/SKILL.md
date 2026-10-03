@@ -25,7 +25,7 @@ Other helpful rules of thumb:
 - When possible, restructure a large behavior change into a large no-op refactor commit and THEN a small behavioral change.
   - This pattern is generalizable across PRs, etc. Useful for stacked PRs as well as commit-by-commit reviews
   - This is a really powerful tool for e.g. mechanical renames etc.
-- In terms of the definition of a "large change", think more in Jon Osterhaut's "shallow vs. deep module" approach. A less helpful, but more precise rule of thumb is >500 LoC as a "large change" (but, again, 500 LoC isolated behind a simple interface -- a deep module -- is not a "large change")
+- In terms of the definition of a "large change", think more in John Ousterhout's "shallow vs. deep module" approach. A less helpful, but more precise rule of thumb is >500 LoC as a "large change" (but, again, 500 LoC isolated behind a simple interface -- a deep module -- is not a "large change")
 - Rule of thumb: each commit should involve ONE and only ONE logical change (both in a stacked PR and in a commit-by-commit approach)
 - The idea is that a large API surface change is much more complicated to reason about than an isolated one
 - Think in terms of *abstraction* for the reviewer. They should be able to "black box" implementation.
