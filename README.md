@@ -31,3 +31,15 @@ claude plugin install deslop@devdotfast
 codex plugin marketplace add devdotfast/skills
 codex plugin add deslop@devdotfast
 ```
+
+To update a managed plugin install:
+
+```sh
+# Claude Code
+claude plugin marketplace update devdotfast
+claude plugin update deslop@devdotfast
+
+# Codex
+codex plugin marketplace upgrade devdotfast
+codex plugin add deslop@devdotfast
+```
