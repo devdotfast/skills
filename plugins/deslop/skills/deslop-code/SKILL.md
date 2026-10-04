@@ -4,6 +4,17 @@ description: clean up code layering and unnecessary abstractions in drive-by fix
 disable-model-invocation: true
 ---
 
+There are a few great levers when cleaning up code:
+
+1. Cleaning up dead code. Analyze every line of the commit. Your reviewer will nitpick. Ask yourself: did this HAVE to change? If not, revert it.
+2. Creating a drive-by fix PR or commit in the code to make it read better overall. Improves code quality and makes it easier to reason about.
+
+## Part 1: Cleaning up dead code
+
+Be aggressive when deleting code; question the user if things are ok to delete but perhaps aren't covered in E2E tests or (formal) specifications (may be a missing edge case). Consult git history, trace storage, issue tracking, slack, etc. to autonomously come to a conclusion autonomously if you can; only refer to the human if you can't be sure.
+
+## Part 2: Improving Codebase Quality
+
 Think in terms of John Ousterhout's "A Philosophy of Software Design"; specifically, in optimizing for deep modules over shallow ones. You want narrow interfaces which provide deep functionality.
 
 These sort of changes work best as no-op cleanup commits or PRs. Do not mix behavior changes with them if at all possible. You are trying to set up some "drive-by fixes" that leave the code better than you found it.
